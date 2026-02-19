@@ -23,4 +23,24 @@ if response.lower() == "yes":
     print("Great job! Keep doing your morning pages.")
 else:
     print("It's okay, try to write a page in your journal every day.")
-print("No matter what, stay positive and lively! You got this!")
+print("Did you do your workout today? (yes/no)")
+response = input()
+if response.lower() == "yes":
+    print("Great job! You're staying active.")
+else:
+    print("Try to do some form of exercise every day.")
+print("Did you read a book today? (yes/no)")
+response = input()
+if response.lower() == "yes":
+    print("Great job! You're expanding your knowledge.")
+else:
+    print("Try to read a page of a book every day.")
+print("How was your day overall? (Great/Okay/Bad)")
+response = input()
+if response.lower() == "great":
+    print("That's wonderful to hear! Keep up the positive vibes.")
+elif response.lower() == "okay":
+    print("It's normal to have okay days, just remember to focus on your goals and keep pushing forward.") 
+elif response.lower() == "bad":
+    print("It's okay to have bad days, just remember that tomorrow is a fresh start.")
+print("Remember to have a smile on your face and stay positive! You got this!")
